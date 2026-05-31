@@ -40,7 +40,7 @@ PI-TRA-LSTM follows a physics-informed sequence modeling design:
 5. **PSO Calibration:** equivalent physical parameters can be calibrated before model training.
 
 <p align="center">
-  <img src="assets/process.png" width="88%">
+  <img src="PI_TRA_LSTM_modular/assets/process.png" width="88%">
 </p>
 
 ## Key Results
@@ -50,7 +50,7 @@ The benchmark compares PI-TRA-LSTM with traditional machine-learning models and 
 ### Prediction Comparison
 
 <p align="center">
-  <img src="assets/prediction_comparison.png" width="88%">
+  <img src="PI_TRA_LSTM_modular/assets/prediction_comparison.png" width="88%">
 </p>
 
 ### Attention Interpretation
@@ -58,13 +58,13 @@ The benchmark compares PI-TRA-LSTM with traditional machine-learning models and 
 The attention map illustrates how PI-TRA-LSTM focuses on different historical windows during normal, abnormal, and tail-drift periods.
 
 <p align="center">
-  <img src="assets/attention_comparison.png" width="88%">
+  <img src="PI_TRA_LSTM_modular/assets/attention_comparison.png" width="88%">
 </p>
 
 ### Error Distribution
 
 <p align="center">
-  <img src="assets/error_comparison.png" width="88%">
+  <img src="PI_TRA_LSTM_modular/assets/error_comparison.png" width="88%">
 </p>
 
 ## Installation
