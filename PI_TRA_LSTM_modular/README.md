@@ -102,7 +102,7 @@ For GPU training, install the PyTorch build matching your CUDA version from the 
 Place the raw DCS CSV file under a local data folder:
 
 ```text
-Twin-Shaft-Lime-Kiln-PI-TRA-LSTM/
+PI_TRA_LSTM_modular/
 `-- data_src/
     `-- limekiln.csv
 ```
