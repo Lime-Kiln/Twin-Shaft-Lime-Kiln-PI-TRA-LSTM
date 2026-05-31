@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kiln-R1: Physics-Informed Temporal Re-Attention LSTM for Twin-Shaft Lime Kilns
+# Physics-Informed Temporal Re-Attention LSTM for Twin-Shaft Lime Kilns
 
 **Learning a Physics-Informed Temporal Re-Attention LSTM Network for Temperature Process Modeling in Twin-Shaft Lime Kilns**
 
@@ -72,15 +72,15 @@ The attention map illustrates how PI-TRA-LSTM focuses on different historical wi
 Clone the repository:
 
 ```bash
-git clone https://github.com/qiaojimei/Twin-Shaft-Lime-Kiln-PI-TRA-LSTM.git
+git clone https://github.com/Lime-Klin/Twin-Shaft-Lime-Kiln-PI-TRA-LSTM.git
 cd Twin-Shaft-Lime-Kiln-PI-TRA-LSTM
 ```
 
 Create a conda environment:
 
 ```bash
-conda create -n kiln-r1 python=3.10 -y
-conda activate kiln-r1
+conda create -n PI_TRA_LSTM_modular python=3.10 -y
+conda activate PI_TRA_LSTM_modular
 ```
 
 Install dependencies:
@@ -102,7 +102,7 @@ For GPU training, install the PyTorch build matching your CUDA version from the 
 Place the raw DCS CSV file under a local data folder:
 
 ```text
-Kiln-R1/
+Twin-Shaft-Lime-Kiln-PI-TRA-LSTM/
 `-- data_src/
     `-- limekiln.csv
 ```
@@ -184,7 +184,7 @@ checkpoints/
 ## Repository Structure
 
 ```text
-Kiln-R1/
+PI_TRA_LSTM_modular/
 |-- README.md
 |-- DEPLOYMENT.md
 |-- requirements.txt
